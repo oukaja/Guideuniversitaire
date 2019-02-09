@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.guideuniversitaire">
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:name=".global">
+        <meta-data
+            android:name="DATABASE"
+            android:value="universites.db"/>
+        <activity android:name=".activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.MainActivity"/>
+        <activity android:name=".activities.EtablissementActivity"/>
+        <activity android:name=".activities.UniversityActivity"/>
+        <activity android:name=".activities.AddUniversityActivity"/>
+        <activity android:name=".activities.DelShowUniversityActivity"/>
+        <activity android:name=".activities.AddEtablissementActivity"/>
+        <activity android:name=".activities.DelShowEtablissementActivity"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/nometab"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/email"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="41dp"
+        android:ems="10"
+        android:hint="Nom"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/typeetab"
+        android:layout_width="274dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/nom"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="91dp"
+        android:ems="10"
+        android:hint="Ecole / Faculté"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/respo"
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/nometab"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="145dp"
+        android:ems="10"
+        android:hint="Responsable"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/adretab"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/nom"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="198dp"
+        android:ems="10"
+        android:hint="Adresse" />
+
+    <EditText
+        android:id="@+id/villeetab"
+        android:layout_width="274dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="215dp"
+        android:ems="10"
+        android:hint="Ville" />
+
+    <EditText
+        android:id="@+id/emailetab"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/email"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="162dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/teletab"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/emailetab"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="109dp"
+        android:ems="10"
+        android:hint="tel"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/addE"
+        android:layout_width="272dp"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="63dp"
+        android:text="Ajouter Etablissement
+" />
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/add_etab"
+        android:title="Ajouter Etablissement" />
+    <item
+        android:id="@+id/del_etab"
+        android:title="Supprimer Etablissement" />
+    <item
+        android:id="@+id/ls_etab"
+        android:title="liste des Etablissement" />
+    <item
+        android:id="@+id/q_etab"
+        android:title="Quitter" />
+
+</menu>

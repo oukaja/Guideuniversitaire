@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/uni_name"
+        android:layout_width="237dp"
+        android:layout_height="54dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="9dp"
+        android:text="Université Med V"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="40px" />
+
+    <TextView
+        android:id="@+id/uni_president"
+        android:layout_width="323dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="62dp"
+        android:textColor="#000000"
+        android:textSize="30px"
+        android:textAlignment="center"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/uni_adr"
+        android:layout_width="323dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="102dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30px" />
+
+    <TextView
+        android:id="@+id/uni_ville"
+        android:layout_width="323dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="141dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textSize="30px" />
+
+    <TextView
+        android:id="@+id/uni_email"
+        android:layout_width="323dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="181dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textSize="30px" />
+
+    <TextView
+        android:id="@+id/uni_tel"
+        android:layout_width="323dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="221dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30px" />
+
+    <Button
+        android:id="@+id/univ_ls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginBottom="192dp"
+        android:text="RETOUR" />
+
+    <Button
+        android:id="@+id/univ_del"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/univ_ls"
+        android:layout_alignEnd="@+id/uni_name"
+        android:text="Supprimer" />
+
+</RelativeLayout>
