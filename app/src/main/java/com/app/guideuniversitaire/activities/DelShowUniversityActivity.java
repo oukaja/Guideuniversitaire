@@ -75,7 +75,9 @@ public class DelShowUniversityActivity extends AppCompatActivity {
                 startActivity(intent);
                 return true;
             case R.id.del_etab:
-
+                Intent intent3 = new Intent(this, EtablissementActivity.class);
+                intent3.putExtra("idU", this.id);
+                startActivity(intent3);
                 return true;
             case R.id.ls_etab:
                 Intent intent2 = new Intent(this, EtablissementActivity.class);
